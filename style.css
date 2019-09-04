@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start header  */
+ .header .uk-section {
+    height: 300px;
+}
+.header .uk-section h3 {
+    width: 300px;
+  height: 40px;
+  border-top-style: double;
+  border-block-end-style: double;
+}
+
+.header .uk-section.uk-butto {
+    border-radius: 3px;
+}
+.header .active {
+    border: 2px solid darkgreen;
+}
+.uk-navbar {
+    display: flex;
+    position: static;
+}
+ .header .uk-navbar-container:not(.uk-navbar-transparent) {
+    background:#1f2727;
+}
+.header .uk-button:hover {
+    background-color:black;
+    color: aliceblue;
+}
+ .header .uk-navbar-left h3 {
+    color: aliceblue;
+    text-transform: uppercase;
+    padding-left :15px;
+    
+}
+.header .uk-navbar-right li a {
+    color: aliceblue;
+}
+ .header .uk-navbar-left span {
+    color: darkgreen;
+}
+/* end header  */
+/* start part */ 
+.part h2 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.part p {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* start about me */
+ .about .uk-card-body i {
+    font-size: 20px;
+    color: blue;
+}
+ .about .uk-card-body  span {
+    color: black;
+}
+.about h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about p {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end about me */
+/* start my skill*/
+.skill p {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.skill h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill .uk-button {
+    color: darkgreen;
+    border:2px solid darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill .uk-button:hover {
+    color: aliceblue;
+    background-color: darkgreen;
+    border:2px solid aliceblue;
+}
+.skill .uk-progress {
+    width: 400px;
+}
+.skill .uk-card-default {
+    background: rgb(245, 245, 242);
+}
+/* end my skill*/
+/* start resume */
+.resume .uk-section .uk-button{
+    color: darkgreen;
+    border:2px solid darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resume .uk-button:hover {
+    color: aliceblue;
+    background-color: darkgreen;
+    border:2px solid aliceblue;
+}
+.resume p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume h3 {
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkgreen;
+}
+/* end resume*/
+/* start eduction */
+.eduction .uk-button {
+    background-color: darkgreen;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif
+}
+.eduction .uk-button:hover{
+    background-color:aliceblue;
+    color:darkgreen;
+    border: 2px solid darkgreen;
+}
+.eduction p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.eduction address {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.eduction h3 {
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+/* end eduction */
+/* start experince*/
+.experince .uk-button {
+    background-color: darkgreen;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif
+}
+.experince .uk-button:hover{
+    background-color:aliceblue;
+    color:darkgreen;
+    border: 2px solid darkgreen;
+}
+.experince p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.experince address {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.experince h3 {
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+/* end experince*/
+/* start ender */
+.ender .uk-card-default .uk-card-body {
+    background-color: white;
+}
+.ender h4 {
+    color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+.ender p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end ender*/
+/* start filter */
+.filter p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end filter*/
+/* start conact me */
+.contact p {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize
+}
+.contact address {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize
+}
+.contact strong {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize
+}
+.contact h3 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+.contact legend {
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact .uk-button {
+    background-color: #393939;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end contact me */
+/* start footer */
+.footer {
+    background-color: black;
+    color: aliceblue;
+}
+.footer i {
+    font-size: 20px;
+    padding: 5px;
+}
+.footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end footer */
